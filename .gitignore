@@ -1,0 +1,6 @@
+# Chef
+.chef/*.pem
+.chef/encrypted_data_bag_secret
+# include everything except directory .chef
+*.chef
+*.DS_store

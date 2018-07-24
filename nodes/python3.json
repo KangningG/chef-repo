@@ -1,3 +1,0 @@
-{
-	include cookbook::python3 
-}
