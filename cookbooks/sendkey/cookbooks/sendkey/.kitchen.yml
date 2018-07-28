@@ -19,7 +19,7 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[sendkey::default]
+      - recipe[my_users::default]
     verifier:
       inspec_tests:
         - test/integration/default

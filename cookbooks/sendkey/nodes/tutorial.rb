@@ -3,4 +3,4 @@
 
 name "tutorial"
 run_list "role[python]"
-include_recipe "sendkey::publicgroup"
+include_recipe "my_users::publicgroup"

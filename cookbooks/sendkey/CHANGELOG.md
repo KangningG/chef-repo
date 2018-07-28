@@ -1,6 +1,6 @@
-# sendkey CHANGELOG
+# my_users CHANGELOG
 
-This file is used to list changes made in each version of the sendkey cookbook.
+This file is used to list changes made in each version of the my_users cookbook.
 
 # 0.1.0
 

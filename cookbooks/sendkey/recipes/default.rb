@@ -1,10 +1,10 @@
 #
-# Cookbook:: sendkey
+# Cookbook:: my_users
 # Recipe:: default
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-# include_recipe "sendkey::publicgroup"
+# include_recipe "my_users::publicgroup"
 
 users_manage "rebels" do
    group_id 1138
