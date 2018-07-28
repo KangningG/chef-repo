@@ -1,0 +1,10 @@
+DEPENDENCIES
+  sendkey
+    path: .
+    metadata: true
+  users (~> 5.4.0)
+
+GRAPH
+  sendkey (0.1.0)
+    users (~> 5.0)
+  users (5.4.0)

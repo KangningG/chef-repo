@@ -1,10 +1,10 @@
 # Author:: Fin Gao
 # Cookbook Name:: python
-# Recipe:: python3.6
+# Recipe:: pip
 
-bash 'python3.6' do
+bash 'pip' do
 	cwd '/tmp'
 	code <<-EOH
-	sudo yum install -y python3
+	sudo yum install -y python3-pip
 	EOH
 end

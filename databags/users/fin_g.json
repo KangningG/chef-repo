@@ -1,0 +1,11 @@
+{
+  "id": "fin_g",
+  "action":"create",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDSvlqxwG6VMwpPFX2bhDVub99eZ9YHFEwTsWNNRa+XFsgZPRsA8n/X4MtNKAx0szlkFgRDF2u+5fYTgt5Pjk3g4/Z7NxOHIIJU2zf4f4SeFBzppScSxNO3PDxJLVWhYhndTm+GvNUaiURqT4ThokTt/TJ0ss3Gnpl+fqBW6s4fZ6vCLwvQNtlll+CvbeelyTfkDLdDZ3gWLliwqGoUSOZt9TT34VCR5rueVhF8QZltGa6ROgN88CuRfZPHQeXKFFCffzDihzZ5Qx/T7klNnqtRdzbeXQusZt0fXwY8sORgU8YsEq9TGNowfhOktUSSWYY3Vj3W9f0l/7SzGHbX6mHfsrMesyaIgXnNxPckC4PzYFcoeId/1FAM1mQf8IH7P3QynMqNX/0f9TgKLvzSTvcvsZExsJJPIvK145rv53Ef68zlSkaHhKP7I6760K0MbZiIIlkg1XDeICm8MBtvDDuzwj+ooY38x0kHh+dzclRkLGuxjwnPdHTC/CC0sucQ8atR0k752hSM+43e8SAxVtYld8KaZ+KseqWS4+yKKvOfSj2TZddw5TGA+Ypl19YRrJPGDkeaLi54p+Js/mmJAJubAg8puv6yCQZKyC2D225kPvK880Oy04b5lw9Au5QYRByASzBHdl3p5jlhx2iMIlLdbB+MN8mUvUjOiG89KUEl5w== fin"
+  ],
+  "groups": [ "publicgroup" ],
+  "uid": 3001,
+  "shell": "\/bin\/bash",
+  "comment": "Create User with public groups authorization"
+}
