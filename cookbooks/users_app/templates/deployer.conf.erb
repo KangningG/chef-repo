@@ -1,0 +1,5 @@
+<% @commands.each do |command| %>
+%deployer ALL= NOPASSWD: /bin/systemctl start <%= command %>
+%deployer ALL= NOPASSWD: /bin/systemctl stop <%= command %>
+%deployer ALL= NOPASSWD: /bin/systemctl restart <%= command %>
+<% end %>

@@ -1,10 +1,7 @@
 DEPENDENCIES
-  sendkey
-    path: .
-    metadata: true
+  sudo (~> 5.4.0)
   users (~> 5.4.0)
 
 GRAPH
-  sendkey (0.1.0)
-    users (~> 5.0)
+  sudo (5.4.0)
   users (5.4.0)

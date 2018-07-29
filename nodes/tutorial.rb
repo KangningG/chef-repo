@@ -2,4 +2,4 @@
 # Node:: tutorial
 
 name "tutorial"
-run_list "role[python]"
+run_list "role[python],recipe[users_app::developers]"
