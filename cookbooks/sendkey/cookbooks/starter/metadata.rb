@@ -1,5 +1,0 @@
-name 'starter'
-description 'A basic starter cookbook'
-version '1.0.2'
-maintainer 'Fin Gao, Inc.'
-maintainer_email 'you@example.com'
