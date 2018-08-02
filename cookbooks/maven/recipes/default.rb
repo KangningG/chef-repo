@@ -20,7 +20,7 @@
 # limitations under the License.
 #
 
-include_recipe 'ark::default' 
+include_recipe 'ark::default'
 
 group 'create the group for Maven' do
   group_name node['maven']['group']
@@ -36,7 +36,7 @@ end
 
 # install maven via ark
 ark 'maven' do
-  version node['maven']['3.5.0']
+  version node['maven']['version']
   url node['maven']['url']
   checksum node['maven']['checksum']
   home_dir node['maven']['m2_home']
