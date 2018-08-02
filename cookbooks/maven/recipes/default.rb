@@ -20,7 +20,7 @@
 # limitations under the License.
 #
 
-include_recipe 'ark::default'
+include_recipe 'ark::default' 
 
 group 'create the group for Maven' do
   group_name node['maven']['group']

@@ -1,3 +1,0 @@
-#
-# Cookbook:: maven
-# Recipe:: dependencies

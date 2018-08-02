@@ -2,4 +2,4 @@
 # Node:: tutorial
 
 name "tutorial"
-run_list "role[IDETools]"
+run_list "recipe[maven::junit]","recipe[maven::tomcat]","role[IDETools]"

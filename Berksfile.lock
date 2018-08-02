@@ -1,8 +1,14 @@
 DEPENDENCIES
+  build-essential (~> 8.1.1)
+  homebrew (~> 5.0.4)
+  java (~> 2.1.0)
   maven (~> 5.2.0)
+  mingw (~> 2.1.0)
   ohai (~> 5.2.1)
   oracle_java (~> 0.2.1)
+  seven_zip (~> 3.0.0)
   sudo (~> 5.4.0)
+  tomcat (~> 3.0.0)
   users (~> 5.4.0)
 
 GRAPH
@@ -26,5 +32,6 @@ GRAPH
   seven_zip (3.0.0)
     windows (>= 0.0.0)
   sudo (5.4.0)
+  tomcat (3.0.0)
   users (5.4.0)
   windows (5.0.0)
